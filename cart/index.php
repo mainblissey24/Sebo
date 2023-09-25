@@ -13,6 +13,15 @@ require('./sheep_core/config.php');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <!--Topo do site-->
+    <div class="header">
+        <p class="logo">
+            Sebo de Mangás
+        </p>
+        <div class="cart">
+            <p><i class="fa fa-shopping-cart"></i>0</p>
+        </div>
+    </div>
+    <!--Fim do topo do site-->
 </body>
 </html>
