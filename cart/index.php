@@ -20,7 +20,8 @@ require('./sheep_core/config.php');
             Sebo de Mangás
         </p>
         <div class="cart">
-            <p><i class="fa fa-shopping-cart"></i>0</p>
+        <i class="fa fa-shopping-cart"></i>
+            <p>0</p>
         </div>
     </div>
     <!--Fim do topo do site-->
