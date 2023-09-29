@@ -27,7 +27,15 @@ require('./sheep_core/config.php');
     <!--Fim do topo do site-->
     <!--Conteudo do site-->
     <div class="container">
-        
+        <div class="linha-produtos">
+            <!-- Inicio Produto-->
+            <div class="corpoProduto">
+                <div class="imgProduto">
+                    <img src="./assets/img/onepiece103.png" alt="One Piece vol.103" class="produtoMiniatura">
+                </div>
+            </div>
+            <!-- Fim do Produto-->
+        </div>
     </div>
     <!--Conteudo do site-->
 
