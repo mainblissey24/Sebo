@@ -25,5 +25,11 @@ require('./sheep_core/config.php');
         </div>
     </div>
     <!--Fim do topo do site-->
+    <!--Conteudo do site-->
+    <div class="container">
+        
+    </div>
+    <!--Conteudo do site-->
+
 </body>
 </html>
