@@ -17,7 +17,7 @@ require('./sheep_core/config.php');
     <!--Topo do site-->
     <div class="header">
         <p class="logo">
-            Sebo de Mangás
+            Sebosa dos Mangás
         </p>
         <div class="cart">
         <i class="fa fa-shopping-cart"></i>
@@ -32,6 +32,10 @@ require('./sheep_core/config.php');
             <div class="corpoProduto">
                 <div class="imgProduto">
                     <img src="./assets/img/onepiece103.png" alt="One Piece vol.103" class="produtoMiniatura">
+                </div>
+                <div class="titulo">
+                    <p>One Piece Vol.103</p>
+                    <h2>R$ 36,90</h2>
                 </div>
             </div>
             <!-- Fim do Produto-->
