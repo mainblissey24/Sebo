@@ -30,6 +30,13 @@ body{
     font-weight: bold;
     color: #fff;
 }
+
+.header:hover{
+    background: blue;
+    box-shadow: 0 0 5px blue, 0 0 25px
+    blue, 0 0 20px blue, 0 0 100px blue;
+    transition: 0.6s;
+}
 .cart{
     width: 80px;
     display: flex;
