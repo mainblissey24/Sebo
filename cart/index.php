@@ -29,6 +29,7 @@ require('./sheep_core/config.php');
     <div class="container">
         <div class="linha-produtos">
             <!-- Inicio Produto-->
+            <form action="filtros/criar.php" method="post"></form>
             <div class="corpoProduto">
                 <div class="imgProduto">
                     <img src="./assets/img/onepiece103.png" alt="One Piece vol.103" class="produtoMiniatura">
@@ -36,10 +37,14 @@ require('./sheep_core/config.php');
                 <div class="titulo">
                     <p>One Piece Vol.103</p>
                     <h2>R$ 36,90</h2>
+                    <input type="hidden" name="id_produto" value="">
+                    <input type="hidden" name="valor" value="">
+                    <button type="submit" class="button"></button>
                 </div>
             </div>
             <!-- Fim do Produto-->
         </div>
+        <!-- -->
     </div>
     <!--Conteudo do site-->
 
