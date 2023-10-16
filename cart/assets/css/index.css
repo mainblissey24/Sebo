@@ -1,43 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins' sans-serif;
-    font-size:  18px;
+    font-size: 18px;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.header{
+.header {
     width: 70%;
     height: 80px;
     background-color: red;
     display: flex;
-    margin:  30px 0;
+    margin: 30px 0;
     padding: 15px;
     border-radius: 3px;
     justify-content: space-between;
     align-items: center;
 }
 
-.header .logo{
+.header .logo {
     font-size: 30px;
     font-weight: bold;
     color: #fff;
 }
 
-.header:hover{
+.header:hover {
     background: blue;
-    box-shadow: 0 0 5px blue, 0 0 25px
-    blue, 0 0 20px blue, 0 0 100px blue;
+    box-shadow: 0 0 5px blue, 0 0 25px blue, 0 0 20px blue, 0 0 100px blue;
     transition: 0.6s;
 }
-.cart{
+
+.cart {
     width: 80px;
     display: flex;
     background-color: #fff;
@@ -47,11 +47,11 @@ body{
     padding: 7px 10px;
 }
 
-.fa-shopping-cart{
+.fa-shopping-cart {
     color: red;
 }
 
-.cart p{
+.cart p {
     width: 22px;
     height: 22px;
     justify-content: center;
@@ -61,20 +61,20 @@ body{
     color: #fff;
 }
 
-.container{
+.container {
     display: flex;
     width: 70%;
     margin-bottom: 30px;
 }
 
-.linha-produtos{
+.linha-produtos {
     display: flex;
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
 
-.corpoProduto{
+.corpoProduto {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,7 +84,7 @@ body{
     border-radius: 5px;
 }
 
-.imgProduto{
+.imgProduto {
     width: 100%;
     height: 190px;
     display: flex;
@@ -92,14 +92,14 @@ body{
     align-items: center;
 }
 
-.produtoMiniatura{
+.produtoMiniatura {
     max-width: 90%;
     max-height: 90%;
     object-fit: cover;
     object-position: center;
 }
 
-.titulo{
+.titulo {
     width: 100%;
     height: 110px;
     align-items: center;
@@ -107,4 +107,20 @@ body{
     text-align: center;
     margin-top: 5px;
     flex-direction: column;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+}
+
+.button {
+    background-color: red;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    padding: 7px 25px;
+    color: #fff;
+    font-size: 15px;
 }
