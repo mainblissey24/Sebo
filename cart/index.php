@@ -44,6 +44,13 @@ require('./sheep_core/config.php');
             </div>
             </form>
             <!-- Fim do Produto-->
+            <!-- barra lateral do site-->
+            <div class="barraLateral">
+                <div class="topoCarrinho">
+                    <p>Meu Carrinho</p>
+                </div>
+            </div>
+            <!-- barra lateral do site-->
         </div>
         <!-- -->
     </div>
