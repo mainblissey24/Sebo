@@ -49,8 +49,27 @@ require('./sheep_core/config.php');
                 <div class="topoCarrinho">
                     <p>Meu Carrinho</p>
                 </div>
+                <!-- inicio produto carrinho-->
+             
+                <div class="item-carrinho">
+                    <div class="linha-da-imagem">
+                        <img src="./assets/img/onepiece103.png" alt="One piece 103 carrinho" class="img-carrinho">
+                    </div>
+                    <p>One Piece Vol.103</p>
+                    <h2>R$ 36,90</h2>
+                    <form action="filtros/excluir.php" method="post">
+                        <input type="hidden" name="id_produto" value="">
+                        <button type="submit"  style="border:none ; background:none;"><i class="fa fa-trash-o"></i></button>
+                    </form>
+                </div>
+                   <!-- fim produto carrinho-->
+                   <div class="item-carrinho-vazio">Seu Carrinho está vazio</div>
+                   <div class="rodape">
+                    <h3>Total</h3>
+                    <h2>R$36,90</h2>
+                   </div>
             </div>
-            <!-- barra lateral do site-->
+            <!-- fim barra lateral do site-->
         </div>
         <!-- -->
     </div>
