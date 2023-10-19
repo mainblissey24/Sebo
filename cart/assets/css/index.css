@@ -126,7 +126,7 @@ h2 {
 }
 
 .button:hover{
-    box-shadow: 10px 10px 0px blue;
+    box-shadow: 5px 5px 0px blue;
     top: 5px;
     left: 5px;
 }
