@@ -67,8 +67,8 @@ require('../sheep_core/config.php');
                             <td>7</td>
                             <td><img src="assets/img/sem-imagem.png" alt="" style="width:50px;"></td>
                             <td><?= date('d/m/Y') ?></td>
-                            <td>Cursos Maykon</td>
-                            <td>R$ 77</td>
+                            <td> gfgh</td>
+                            <td> hfghgfdgh</td>
                                                    
                             <td><a href="" class="btn btn-icon btn-primary"><i class="far fa-edit"></i></a></td>
                             <td>
@@ -89,7 +89,7 @@ require('../sheep_core/config.php');
               </div>
             </div>
           
-      <!-- fim TABELA  MAYKONSILVEIRA.COM.BR MAYKON SILVEIRA -->
+      <!-- fim TABELA  -->
       </section>
       </div>
         
