@@ -46,7 +46,7 @@ date_default_timezone_set('America/Sao_Paulo');
  */
 
 //configurações do bando de dados
-define('SHEEP_URL', 'localhost/sebo_de_mangas/cart');//ou dominio exemplo: maykonsilveira.com.br
+define('SHEEP_URL', 'localhost/sebo_de_mangas/cart');//ou dominio exemplo:
 define('SHEEP_HOST','localhost');
 define('SHEEP_USER','root');
 define('SHEEP_SENHA','');
@@ -57,20 +57,13 @@ define('SHEEP_BD','pi_sebo');
 
 /**********************************************************************
  * ********************************************************************
- * DADOS DO SITE MAYKONSILVEIRA.COM.BR E MAYKON SILVEIRA
+ * DADOS DO SITE 
+ * ********************************************************************
+ * ********************************************************************
+* VOCÊ PARA O CAMINHO DO SUCESSO #*
+ * *****************************************
+ * ********************************************************************
  * 
- * ********************************************************************
- * ********************************************************************
-* MAYKONSILVEIRA.COM.BR DEREICIONANDO VOCÊ PARA O CAMINHO DO SUCESSO #*
- * *************MAYKON***SILVEIRA**************************************
- * *************sheep**TECHNOLOGIES***********************************
- * ********************************************************************
- * TUDO AQUI FOI CRIADO NO DIA 28-09-2021 POR MAYKON SILVEIRA
- * TODOS OS DIREITOS RESERVADOS E CÓDIGO FONTE RASTREADO COM ARQUIVOS 
- * CRIADO POR MAYKONSILVEIRA.COM.BR DESDE 2007 *********
- * TODA SABEDORIA PARA CRIAR ESTES SISTEMAS VEM DO SANTO E ETERNOR PAI
- * O SANTO SENHOR DEUS DE ABRAÃO, ISSAC E JACÓ E DO MEU ÚNICO SENHOR 
- * O MESSIAS NOSSO SALVADOR, POIS A GLROIA É DO PAI E DO FILHO PARA SEMPRE
  * ********************************************************************
  * ********************************************************************
  */
