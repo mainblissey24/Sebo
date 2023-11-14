@@ -50,7 +50,7 @@ define('SHEEP_URL', 'localhost/sebo_de_mangas/cart');//ou dominio exemplo: mayko
 define('SHEEP_HOST','localhost');
 define('SHEEP_USER','root');
 define('SHEEP_SENHA','');
-define('SHEEP_BD','loja');
+define('SHEEP_BD','pi_sebo');
 
 
 

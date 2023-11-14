@@ -61,14 +61,21 @@ require('../sheep_core/config.php');
                           </tr>
                         </thead>
                         <tbody>
-                            
+                            <?php
+                            $ler = new Ler();
+                            $ler->Leitura('produtos', "ORDER BY  data DESC");
+                            if($ler->getResultado()){
+                              foreach($ler->getResultado() as $produto){
+                                $produto = (object) $produto;
+                          
+                            ?>
                           
                           <tr>
-                            <td>7</td>
-                            <td><img src="assets/img/sem-imagem.png" alt="" style="width:50px;"></td>
-                            <td><?= date('d/m/Y') ?></td>
-                            <td> gfgh</td>
-                            <td> hfghgfdgh</td>
+                            <td><?=$produto->id?></td>
+                            <td><img src="<?=HOME?>/uploads/<?=$produto->capa?>" alt="" style="width:50px;"></td>
+                            <td><?= date('d/m/Y', strtotime($produto->data)) ?></td>
+                            <td><?=$produto->nome?></td>
+                            <td><?=$produto->valor?></td>
                                                    
                             <td><a href="" class="btn btn-icon btn-primary"><i class="far fa-edit"></i></a></td>
                             <td>
@@ -79,8 +86,10 @@ require('../sheep_core/config.php');
                                  </form>
                             </td>
                           </tr>
-                         
-
+                          <?php
+                              }
+                            } 
+                            ?>
                         </tbody>
                       </table>
                     </div>
