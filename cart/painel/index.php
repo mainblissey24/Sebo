@@ -72,7 +72,7 @@ require('../sheep_core/config.php');
                           
                           <tr>
                             <td><?=$produto->id?></td>
-                            <td><img src="<?=HOME?>/uploads/<?=$produto->capa?>" alt="" style="width:50px;"></td>
+                            <td><img src="<?=$produto->capa?>" alt="" style="width:50px;"></td>
                             <td><?= date('d/m/Y', strtotime($produto->data)) ?></td>
                             <td><?=$produto->nome?></td>
                             <td><?=$produto->valor?></td>

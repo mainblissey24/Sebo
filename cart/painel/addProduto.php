@@ -56,7 +56,7 @@ require('../sheep_core/config.php');
                   <div class="form-group row mb-4">
                    
                     <div class="col-md-12">
-                      <input type="file" class="form-control" name="capa">
+                      <input type="text" class="form-control" name="capa" placeholder="Link Imagem">
                     </div>
                     
                   </div>

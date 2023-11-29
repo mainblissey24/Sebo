@@ -61,28 +61,14 @@ spl_autoload_register("sheep_classes");
 
 
 /**********************************************************************
- * ********************************************************************
- * VERIFICA SE É O IP DO SERVDOR E BLOQUEIA MAYKONSILVEIRA.COM.BR E MAYKON SILVEIRA
- * 
- * ********************************************************************
- * ********************************************************************
-* MAYKONSILVEIRA.COM.BR DEREICIONANDO VOCÊ PARA O CAMINHO DO SUCESSO #*
- * *************MAYKON***SILVEIRA**************************************
- * *************sheep**TECHNOLOGIES***********************************
- * ********************************************************************
- * TUDO AQUI FOI CRIADO NO DIA 28-09-2021 POR MAYKON SILVEIRA
- * TODOS OS DIREITOS RESERVADOS E CÓDIGO FONTE RASTREADO COM ARQUIVOS 
- * CRIADO POR MAYKONSILVEIRA.COM.BR DESDE 2007 *********
- * TODA SABEDORIA PARA CRIAR ESTES SISTEMAS VEM DO SANTO E ETERNOR PAI
- * O SANTO SENHOR DEUS DE ABRAÃO, ISSAC E JACÓ E DO MEU ÚNICO SENHOR 
- * O MESSIAS NOSSO SALVADOR, POIS A GLROIA É DO PAI E DO FILHO PARA SEMPRE
+
  * ********************************************************************
  * ********************************************************************
  */
 
 
 
-// verifica se e http ou https por Maykon Silveira ####################
+// verifica se e httpa ####################
 if( isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ) {
     //if( isset(filter_input(INPUT_SERVER, 'HTTPS', FILTER_SANITIZE_STRIPPED)) && filter_input(INPUT_SERVER, 'HTTPS', FILTER_SANITIZE_STRIPPED) == 'on' ) {
          $https = 'https://';
@@ -91,7 +77,7 @@ if( isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ) {
          $https = 'http://';
     }
     
-    // DEFINE A URL DO SITE por Maykon Silveira ####################
+    // DEFINE A URL DO SITE por   ####################
     define('HOME', $https. SHEEP_URL); 	
     define('PASTA_DO_PAINEL', '/sheep_painel/'); 	
     define('URL_CAMINHO_PAINEL', HOME.'/'.PASTA_DO_PAINEL); 	

@@ -1,26 +1,7 @@
 <?php
 /*************************************************************************************
  * ***********************************************************************************
- * CONFIGURAÇÕES FRAMEWORK SEEP PHP CRIADO POR MAYKON SILVEIRA - MAYKONSILVEIRA.COM.BR
- * 
- * SOMOS TODOS(A) OVELHAS DO NOSSO MESSIAS E FILHOS DO ANCIÃO DE DIAS O SENHOR DOS EXÉRCITOS
- * QUE O NOSSO BENDITO PAI ABENÇOE SUA VIDA E SEUS PROJETOS
- * NUNCA MINTA, SEJA SEMPRE HONESTO E JUSTO, USE ESTE FRAMEWORDK PARA O BEM E NUNCA PARA O MAU
- * QUE O ETERNO PAI TE DÊ SABEDORIA E MUITAS FELICIDADES:
- * 
- 
- * QUE A PAZ ESTE COM VOCÊ ASS: MAYKON SILVEIRA
- * ************************************************************************************
- * MAYKONSILVEIRA.COM.BR DEREICIONANDO VOCÊ PARA O CAMINHO DO SUCESSO #*****************
- * *************MAYKON***SILVEIRA*******************************************************
- * *************sheep**TECHNOLOGIES****************************************************
-* **************************************************************************************
- * TUDO AQUI FOI CRIADO NO DIA 28-09-2021 POR MAYKON SILVEIRA
- * TODOS OS DIREITOS RESERVADOS E CÓDIGO FONTE RASTREADO COM ARQUIVOS 
- * CRIADO POR MAYKONSILVEIRA.COM.BR DESDE 2007 *********
- * TODA SABEDORIA PARA CRIAR ESTES SISTEMAS VEM DO SANTO E ETERNOR PAI
- * O SANTO SENHOR DEUS DE ABRAÃO, ISSAC E JACÓ E DO MEU ÚNICO SENHOR 
- * O MESSIAS NOSSO SALVADOR, POIS A GLROIA É DO PAI E DO FILHO PARA SEMPRE
+
  * ************************************************************************************
  */
 
@@ -29,19 +10,8 @@ date_default_timezone_set('America/Sao_Paulo');
 
 /**********************************************************************
  * ********************************************************************
- * GERENTE DE LETURA GERAL MAYKONSILVEIRA.COM.BR E MAYKON SILVEIRA
  * 
- * ********************************************************************
- * MAYKONSILVEIRA.COM.BR DEREICIONANDO VOCÊ PARA O CAMINHO DO SUCESSO #*
- * *************MAYKON***SILVEIRA**************************************
- * *************sheep**PHP***********************************
- * ********************************************************************
- * TUDO AQUI FOI CRIADO NO DIA 01-10-2021 POR MAYKON SILVEIRA
- * TODOS OS DIREITOS RESERVADOS E CÓDIGO FONTE RASTREADO COM ARQUIVOS 
- * CRIADO POR MAYKONSILVEIRA.COM.BR DESDE 2007 *********
- * TODA SABEDORIA PARA CRIAR ESTES SISTEMAS VEM DO SANTO E ETERNOR PAI
- * O SANTO SENHOR DEUS DE ABRAÃO, ISSAC E JACÓ E DO MEU ÚNICO SENHOR 
- * O MESSIAS NOSSO SALVADOR, POIS A GLROIA É DO PAI E DO FILHO PARA SEMPRE
+ 
  * ********************************************************************
  */
 
@@ -99,20 +69,6 @@ define('RODAPE', "Nome do site" );
 
 
 /**********************************************************************
- * ********************************************************************
- * PHPMAILER E SEND GRIND MAYKONSILVEIRA.COM.BR E MAYKON SILVEIRA
- * 
- * ********************************************************************
-* MAYKONSILVEIRA.COM.BR DEREICIONANDO VOCÊ PARA O CAMINHO DO SUCESSO #*
- * *************MAYKON***SILVEIRA**************************************
- * *************sheep**TECHNOLOGIES***********************************
- * ********************************************************************
- * TUDO AQUI FOI CRIADO NO DIA 28-09-2021 POR MAYKON SILVEIRA EAD 
- * TODOS OS DIREITOS RESERVADOS E CÓDIGO FONTE RASTREADO COM ARQUIVOS 
- * CRIADO POR MAYKONSILVEIRA.COM.BR DESDE 2007 *********
- * TODA SABEDORIA PARA CRIAR ESTES SISTEMAS VEM DO SANTO E ETERNOR PAI
- * O SANTO SENHOR DEUS DE ABRAÃO, ISSAC E JACÓ E DO MEU ÚNICO SENHOR 
- * O MESSIAS NOSSO SALVADOR, POIS A GLROIA É DO PAI E DO FILHO PARA SEMPRE
  * ********************************************************************
  * ********************************************************************
  */

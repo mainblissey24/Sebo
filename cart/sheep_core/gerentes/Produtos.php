@@ -43,15 +43,12 @@ class Produtos
     private function Banco()
     {
 
-        $capa = $this->Data['capa'];
-
-        unset($this->Data['capa']);
 
         $this->Data = array_map('addslashes', $this->Data);
         $this->Data = array_map('htmlspecialchars', $this->Data);
         $this->Data = array_map('trim', $this->Data);
         preg_replace('/[^[:alnum:]@]/', '',  $this->Data);
-        $this->Data['capa'] = $capa;
+        $this->Data['capa'] = (string) $this->Data['capa'];
         $this->Data['nome'] = (string) $this->Data['nome'];
         $this->Data['valor'] = (string) $this->Data['valor'];
         $this->Data['data'] = date('Y-m-d H:i:s');
