@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    width: 70%;
+    width: 80%;
     height: 80px;
     background-color: red;
     display: flex;
@@ -63,7 +63,7 @@ body {
 
 .container {
     display: flex;
-    width: 70%;
+    width: 80%;
     margin-bottom: 30px;
 }
 
